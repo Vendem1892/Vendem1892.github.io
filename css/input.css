@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+.head {
+    background-color: #06701f;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    text-decoration: none;
+}
+
+.addToCardButton{
+  padding: 20px;
+  background-color: green;
+  color: whitesmoke;
+  text-align: center;
+  z-index: 1;    
+}
+
+.head-register{
+    background-color:antiquewhite;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration-style: solid;
+    color: greenyellow;
+}
+
+.head-logIn{
+    background-color:green;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    background-color: #679e74;
+    text-align: left;
+    padding: 0px;
+}
+
+.logo{
+    width: 10%;
+}
+
+.main-menu td {
+    position: relative;
+}
+
+body {
+    background-color: #f2f3f5;
+}
+
